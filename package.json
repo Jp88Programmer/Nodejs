@@ -4,13 +4,14 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon server.js -e js,html,css",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "ws": "^8.18.0"
   }
 }
