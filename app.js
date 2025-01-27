@@ -13,4 +13,7 @@
 // console.log(divided(10, 3));
 // console.log(gcd(1, 2));
 // console.log(percentage(1, 2));
-import "./async.js";
+
+// require("./event-loop")
+require("./src/thread-pool");
+// import "./event-loop.js";
