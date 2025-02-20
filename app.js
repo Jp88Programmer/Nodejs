@@ -35,7 +35,7 @@ app.post("/create-user", async (req, res) => {
       message: "User data successfully insertd..",
     });
   } catch (err) {
-    res.status(200).json({
+    res.status(500).json({
       success: false,
       message: "Something went wrong",
     });
